@@ -5,7 +5,6 @@ function calculateChange(amountReceived, amountDue) {
     var roundedChange = change.toFixed(2);
         var message = document.getElementById("output");
         message.innerHTML= "you are due " + "$" + roundedChange + " in change!";
-        //`You are due ${roundedChange} in change!`;
 
 //calculate number of dollars due
 var dollars = Math.floor(roundedChange / 1);
@@ -25,7 +24,6 @@ document.getElementById("dimes-output").innerHTML = dimes;
 // //calculate number of nickels due 
 var nickels = Math.floor(remainder / .05);
 remainder = (remainder - nickels * .05).toFixed(2);
-console.log("line 34", remainder);
 document.getElementById("nickels-output").innerHTML = nickels;
 
 // //calculate number of pennies due 
