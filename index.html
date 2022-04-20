@@ -5,9 +5,40 @@
     <title>Change Calculator</title>
   </head>
   <body>
-    <!-- Write your markup here -->
+    <h1 class=" header"> Change Calculator </h1>
 
-    <!-- Don't forget to add your <script> tag here -->
+    <input id="amount-due" type="text" placeholder="Amount Due"/>
+    <input id="amount-received" type="text" placeholder="Amount Recieved"/>
+    <input id="calculate-change" class="button" type="button" onclick="calculateChange()" value="Calculate" />
+  
+    <p id="output">
+      <h2 id="change-due"></h2>
+      <h2 id="no-change"></h2>
+    </p>
 
+  
+    <p id="bills">  
+    <img src="./images/1 dollar bill.png" height="75px">  
+    <p id="dollars-output"></p>
+      <!-- <img src ="./images/100 dollar bill reg.png" height="75px">
+      <img src="./images/50 dollar bill.png" height="75px">
+      <img src="./images/20 dollar bill.png" height="75px">
+      <img src="./images/10 dollar bill.png" height="75px">
+      <img src="./images/5 dollar bill.png" height="75px"> -->
+    </p>
+
+    <p id="coins">
+      <img src="/images/quarter.png" height="75px">
+      <p id="quarters-output"></p>
+      <img src="./images/dime.png" height="75px">
+      <p id="dimes-output"></p>
+      <img src="/images/nickel.png" height="75px">
+      <p id="nickels-output"></p>
+      <img src="/images/penny.png" height="75px">
+      <p id="pennies-output"></p>
+    
+
+    <script src="main.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/styles.css">
   </body>
 </html>
