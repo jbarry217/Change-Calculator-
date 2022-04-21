@@ -1,12 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Federant&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Federant&display=swap");
 
 body {
-    font-family:'Federant', cursive;
-    background-color: aqua;
+    background-image: url(./images/green-money.gif);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
 }
 
 .header {
-    font-size: x-large;
-    font-family:'Federant', cursive;
-
+    font-size: 450% ;
+    color: rgb(255, 255, 255);
+    font-family:'Federant', cursive;    
+    text-align:center;
+    /* background: -webkit-linear-gradient(rgb(96, 201, 100), rgb(48, 82, 60)); */
+    filter: drop-shadow(2px 2px rgb(0, 0, 0));
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
+.input {
+    height: 3rem;
+    font-size: x-large;
+    font-family: 'Federant', cursive;
+    padding: 1px 5px 1px 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+.input2 {
+    text-align: center;
+}
+.button {
+    height: 3.4rem;
+    font-size:large;
+    padding: 1px 10px 1px 10px;
+    font-family: 'Federant', cursive;
+    text-align:center;  
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    border-radius: 5px;
+    }
+
+ #change-due {
+    font-family: 'Federant', cursive;
+    filter: drop-shadow(2px 2px rgb(0, 0, 0)); */
+    color:rgb(255, 255, 255);
+    font-size: 300%;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+    align-content: center; 
+}
+
+.money {
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    font-size: 300%;
+    filter: drop-shadow(2px 2px rgb(0, 0, 0)); */
+    flex-flow: row;
+    flex-basis:content;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    }  

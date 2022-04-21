@@ -3,8 +3,13 @@ function calculateChange(amountReceived, amountDue) {
     var amountReceived = document.getElementById("amount-received").value;
     var change = amountReceived - amountDue;
     var roundedChange = change.toFixed(2);
-        var message = document.getElementById("output");
-        message.innerHTML= "you are due " + "$" + roundedChange + " in change!";
+        if(roundedChange == 0) {
+            var message = document.getElementById("change-due");
+            message.innerHTML= "No change due!";
+        } else {
+        var message = document.getElementById("change-due");
+        message.innerHTML= "You are due " + "$" + roundedChange + " in change!"; 
+    }
 
 //calculate number of dollars due
 var dollars = Math.floor(roundedChange / 1);
@@ -35,5 +40,4 @@ console.log()
 function handleClickEvent(e) {
 
 document.getElementById("calculate-change").addEventListener("click", () => handleClickEvent())
-
 }
