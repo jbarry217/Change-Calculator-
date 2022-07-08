@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Federant&display=swap");
 
 body {
-    background-image: url(./images/green-money.gif);
+    background-image: url('../images/green-money.gif');
     background-size: cover;
     background-repeat: no-repeat; 
     color: rgb(255, 255, 255);
@@ -47,7 +47,7 @@ body {
 
  #change-due {
     font-family: 'Federant', cursive;
-    filter: drop-shadow(2px 2px rgb(0, 0, 0)); */
+    filter: drop-shadow(2px 2px rgb(0, 0, 0)); 
     color:rgb(255, 255, 255);
     font-size: 300%;
     text-align:center;
@@ -61,7 +61,7 @@ body {
     font-weight: bold;
     flex-direction: row;
     font-size: 300%;
-    filter: drop-shadow(2px 2px rgb(0, 0, 0)); */
+    filter: drop-shadow(2px 2px rgb(0, 0, 0)); 
     flex-flow: row;
     flex-basis:content;
     flex-wrap: nowrap;
